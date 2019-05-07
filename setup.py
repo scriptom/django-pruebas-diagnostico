@@ -13,10 +13,14 @@ setup(
     description='Aplicación sencilla de Django que brinda soporte para pruebas Diagnóstico sencillas.',
     author='Tomás El Fakih',
     author_email='tomaselfakih@gmail.com',
+    download_url='https://github.com/scriptom/django-pruebas-diagnostico/archive/1.2.1.tar.gz',
+    install_requires=[
+        'django_nested_admin'
+    ],
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 2.1.5cd ',  # replace "X.Y" as appropriate
+        'Framework :: Django :: 2.1 ',  # replace "X.Y" as appropriate
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  # example license
         'Operating System :: OS Independent',
